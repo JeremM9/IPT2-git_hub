@@ -20,4 +20,11 @@ public class calculator{
 		}
 			return a/b;
 	}
+
+	public static int modulus(int a, int b) {
+        	if (b == 0) {
+            	throw new ArithmeticException("Cannot mod by zero");
+        	}
+        return a % b;
+    }
 }
